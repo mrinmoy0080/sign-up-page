@@ -1,0 +1,84 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:#EEF1F8;
+}
+.form{
+    height:350px;
+    width:395px;
+    padding: 15px;
+    background-color: #F8FFF9;
+    box-shadow: 4px 5px 23px 0px;
+    border: 2px solid transparent;
+    border-radius: 10px;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+
+}
+input{
+    padding:17px;
+}
+::placeholder{
+    font-size:15px;
+    color:gray;
+}
+.user{
+    height:50px;
+    width:350px;
+    margin;auto;
+    border:1px solid #999494;
+    border-radius: 7px;
+    margin-bottom: 10px;
+}
+    .login{
+        height: 50px;
+        width:100%;
+        margin:auto;
+        font-size:16px;
+        background-color:#007CF7;
+        color:white;
+        border-radius:6px;
+        border:none;
+        font-size: 16px;
+        margin-bottom: 10px;
+
+    }
+    .likha{
+        text-align: center;
+        font-size: 20px;
+
+    }
+    .likha a{
+        text-decoration: none;
+        color:blue;
+
+    }
+    .likha2{
+        text-align: center;
+        font-size: 25px;
+        background: #00C100;
+        height: 50px;
+        width:320px;
+        margin:auto;
+        border: none;
+        border-radius: 10px;
+        padding:10px;
+
+    }
+    .likha2 a{
+        text-decoration: none;
+        color:white;
+
+    }
+    hr{
+        border: 1px solid rgb(179, 174, 174);
+        margin-bottom: 20px;
+    }
+    
+

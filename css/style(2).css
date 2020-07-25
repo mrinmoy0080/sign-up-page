@@ -1,0 +1,72 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(../img/nature.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.form{
+    height: 470px;
+    width: 390px;
+    background-color: lightblue;
+    border:2px solid transparent;
+    border-radius: 6px;
+    padding: 18px;
+    box-shadow: 4px 3px 23px 0px;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+
+}
+.user{
+    height: 50px;
+    width: 360px;
+    margin:auto;
+    border:1px solid gray;
+    border-radius:10px;
+    margin-bottom: 10px;
+}
+::placeholder{
+    font-size: 15px;
+    color:gray;
+    padding: 10px;
+
+}
+.login{
+    height: 50px;
+    width:100%;
+    margin: auto;
+    background-color:#007ACC ;
+    font-size:20px;
+    border: none;
+    border-radius: 10px;
+    color:white;
+}
+hr{
+    border:1px solid gray;
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+.note{
+    text-align: center;
+    font-size: 18px;
+    margin-top:15px;
+}
+.note a{
+    text-decoration: none;
+    color:blue;
+
+}
+.note2{
+    font-size: 18px;
+    text-align: center;
+    margin-top: 20px;
+}
+.note2 a{
+    text-decoration: none;
+    color: rgb(32, 32, 224);
+}
